@@ -15,7 +15,7 @@ TheConsDiv.addEventListener('click', function() {
 
 
 document.getElementById("checkButton").addEventListener("click", function() {
-  let age = document.getElementById("ages").value;
+  let age = document.getElementById("ageInput").value;
   let resultText = document.getElementById("You cannot Drive");
   let resultImage = document.getElementById("cars");
 
