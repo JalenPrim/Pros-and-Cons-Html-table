@@ -27,7 +27,7 @@ document.getElementById("checkButton").addEventListener("click", function() {
     resultText.innerText = "You can drive but can't rent";
     resultText.style.color = "blue"; // change color
     resultImage.src = "https://listings-prod.tcimg.net/listings/9912/86/32/1G1ZD5ST2NF103286/001.jpg";
-  } else  
+  } else  {
     resultText.innerText = "You can drive and rent";
     resultText.style.color = "green"; // change color
     resultImage.src = "https://1000logos.net/wp-content/uploads/2021/08/Enterprise-Rent-A-Car-Logo.png";
