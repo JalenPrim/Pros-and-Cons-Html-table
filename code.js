@@ -11,9 +11,6 @@ TheConsDiv.addEventListener('click', function() {
 });
 
 
-
-
-
 document.getElementById("checkButton").addEventListener("click", function() {
   let age = document.getElementById("ageInput").value;
   let resultText = document.getElementById("resultText");
