@@ -19,7 +19,7 @@ document.getElementById("checkButton").addEventListener("click", function() {
   let resultText = document.getElementById("resultText");
   let resultImage = document.getElementById("resultImage");
 
-  if (age <= 15 ) then {
+  if (age <= 15 ) {
     resultText.innerText = "You cannot drive";
     resultText.style.color = "red"; // change color
     resultImage.src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bicycling.com%2Ftraining%2Fa20048427%2Fbenefits-of-bike-riding%2F&psig=AOvVaw2CSP1sV_cBDoGCoS7XgENE&ust=1744391186512000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCNDt4fD5zYwDFQAAAAAdAAAAABA5";
